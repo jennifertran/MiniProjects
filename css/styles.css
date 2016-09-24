@@ -22,7 +22,7 @@ header h1{
 
 header h2{
   color: white;
-  fontsize: 40px;
+  font-size: 40px;
   margin-top: 0;
   font-family: sans-serif;
 }
@@ -34,4 +34,9 @@ header h2{
 a:hover{
   background: white;
   color: black;
+}
+
+.special{
+  font-size: 30px;
+  color:white;
 }
