@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- Created By Jennifer Tran -->
+
+<!-- Means we are using HTML 5 -->
+<!-- Shows that the site is english so Google can translate easier -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Street Art Carousel</title>
+
+    <!-- Links to other files -->
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+
+    <!--Makes sure it's being viewed properly-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Font API -->
+    <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
+
+</head>
+
+<!-- Where all the content goes.. -->
+<body>
+<center><h1>Street Art Carousel</h1></center>
+
+<div id="container">
+    <center>
+        <div class="pic">
+            <img src="images/street1.jpg" class="img">
+            <div class="text">"Kobra street art, New York"
+            by <a href="https://www.flickr.com/photos/duncan/" target="_blank">Duncan C</a> licensed under <a href="https://creativecommons.org/licenses/by-nc/2.0/" target="_blank">CC by 2.0</a></div>
+        </div>
+
+        <div class="pic">
+            <img src="images/street2.jpg" class="img">
+            <div class="text hide-not-target">"Street art"
+            by <a href="https://www.flickr.com/photos/mariaeklind/" target="_blank">Maria Eklind</a> licensed under <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank">CC by 2.0</a></div>
+        </div>
+
+        <div class="pic">
+            <img src="images/street3.jpg" class="img">
+            <div class="text hide-not-target">"Young women in industrial masks"
+            by <a href="https://www.flickr.com/photos/46990836@N03/" target="_blank">Artjouer Street Art</a> licensed under <a href="https://creativecommons.org/licenses/by-nc/2.0/" target="_blank">CC by 2.0</a></div>
+
+        </div>
+
+        <div class="pic">
+            <img src="images/street4.jpg" class="img">
+            <div class="text hide-not-target">"Portsmouth Street Art"
+            by <a href="https://www.flickr.com/photos/svacher/" target="_blank">Steven Vacher</a> licensed under <a href="https://creativecommons.org/licenses/by-nc/2.0/" target="_blank">CC by 2.0</a></div>
+
+        </div>
+
+        <div class="pic">
+            <img src="images/street5.jpg" class="img">
+            <div class="text hide-not-target">"Half skull: Street Art in Shoreditch"
+            by <a href="https://www.flickr.com/photos/46990836@N03/" target="_blank">Artjouer Street Art</a> licensed under <a href="https://creativecommons.org/licenses/by-nc/2.0/" target="_blank">CC by 2.0</a></div>
+
+        </div>
+    </center>
+
+    <!-- The next and previous slide -->
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+
+</body>
+</html>
