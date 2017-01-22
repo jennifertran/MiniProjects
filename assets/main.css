@@ -1,0 +1,61 @@
+h1 {
+  font-size: 6vmax;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-family: AdamCG;
+}
+
+a {
+  font-size: 23px;
+  color: white;
+  font-family: AdamCG;
+}
+
+a:hover, a:visited  {
+  color: black;
+}
+
+/* Custom fonts */
+@font-face {
+  font-family: AdamCG;
+  src: url('adam.cg_pro-webfont.woff2');
+}
+
+body {
+  background: #00d2ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #00d2ff , #3a7bd5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+}
+
+/* Github Corner */
+.github-corner:hover .octo-arm {
+  animation:octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0%,100% {
+    transform: rotate(0);
+  }
+
+  20%,60% {
+    transform: rotate(-25deg);
+  }
+
+  40%,80% {
+    transform: rotate(10deg);
+  }
+}
+
+@media (max-width:400px) {
+  .github-corner:hover .octo-arm {
+    animation:none;
+  }
+
+  .github-corner .octo-arm{
+    animation:octocat-wave 560ms ease-in-out;
+  }
+}
