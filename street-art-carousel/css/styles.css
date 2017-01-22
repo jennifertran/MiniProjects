@@ -1,0 +1,85 @@
+body {
+  background-image: url("../images/bricks.jpg");
+  background-repeat: repeat;
+}
+
+h1 {
+  color: white;
+  font-family: 'Yatra One', cursive;
+  text-shadow: 4px 4px 8px #000000;
+  font-size: 50px;
+}
+
+.img {
+  width: 100%;
+}
+
+#container {
+  height: 430px;
+  width: 650px;
+  margin: 20px auto;
+  border: 10px solid white;
+  box-shadow: 10px 10px 5px #888888;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Formatting the next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+
+  /* Align the arrows horizontally centered */
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+
+  /* Shadow border animation when hovered */
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  text-shadow: 2px 2px 4px #2F2E33,2px 2px 4px #2F2E33;
+}
+
+/* Positions the next button to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Transparent black background when hovered */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Description formatting */
+.text {
+  color: white;
+
+  /* Position the description at the bottom of the frame */
+  padding-bottom: 10px;
+  font-size: 16px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+
+  /* Include a shadow behind the text for readability */
+  text-shadow: 2px 2px 4px #2F2E33,2px 2px 4px #2F2E33,2px 2px 4px #2F2E33;
+}
+
+/* Changing the color of links */
+a:link, a:visited {
+  color: #148FFF;
+}
+
+/* Helps to hide the description when the page has loaded first time */
+.hide-not-target:not(:target) {
+  display: none
+}
+.hide-not-target(:target) {
+  display: block
+}
