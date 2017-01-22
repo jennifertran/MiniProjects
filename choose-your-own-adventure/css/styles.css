@@ -1,0 +1,42 @@
+body {
+  background: #1995AD;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  padding: 30px;
+  color: white;
+}
+
+footer{
+  background: #BCBABE;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1{
+  color: white;
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-family: 'Yatra One', cursive;
+}
+
+header h2{
+  color: white;
+  font-size: 40px;
+  margin-top: 0;
+  font-family: sans-serif;
+}
+
+.decision {
+  font-size:20px;
+}
+
+a:hover{
+  background: white;
+  color: black;
+}
+
+.special{
+  font-size: 30px;
+  color:white;
+}
