@@ -1,6 +1,3 @@
-# MiniProjects
-A sandbox playground containing several experimental web projects
-=======
 # street-art-carousel
 A simple slideshow featuring various street art from around the world.
 
