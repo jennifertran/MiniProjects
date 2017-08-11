@@ -1,10 +1,11 @@
 h1 {
+  font-family: GilroyBold;
   font-size: 6vmax;
-  font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
   font-family: AdamCG;
+  font-size: 1.5em;
 }
 
 a {
@@ -17,16 +18,41 @@ a:hover, a:visited  {
   color: black;
 }
 
+/* Card View Settings */
+
+.bottom {
+  margin-bottom: 20px;
+}
+
+.card-title, .card-text {
+  color: black;
+}
+
+.btn-main {
+  color: #fff;
+  background-color: #46aef7;
+  border-color: #30c7ec;
+}
+
+.card-img-top {
+  max-width: 100%; !important;
+  height: auto; !important;
+  display:block; !important;
+}
+
 /* Custom fonts */
 @font-face {
   font-family: AdamCG;
   src: url('adam.cg_pro-webfont.woff2');
 }
 
+@font-face {
+  font-family: GilroyBold;
+  src: url('Gilroy-ExtraBold.otf');
+}
+
 body {
-  background: #00d2ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #00d2ff , #3a7bd5); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
 
   color: white;
 }
